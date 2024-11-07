@@ -44,3 +44,10 @@ edu_btn?.addEventListener("click", () => {
  contact_btn?.addEventListener("click", () => {
   contact_section!.classList.toggle("hide");
  })
+
+ //----------------print------
+
+  let print_btn = document.getElementById("print_btn");
+  print_btn?.addEventListener("click", () => {
+    window.print();
+  })
